@@ -1,0 +1,9 @@
+body {
+    background-color: #b6fcf5;
+}
+.center {
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
