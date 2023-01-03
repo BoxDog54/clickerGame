@@ -1,5 +1,7 @@
 body {
-    background-color: #b6fcf5;
+    background-color: #242A2F;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
 }
 .center {
     width: 50%;
@@ -8,11 +10,14 @@ body {
     text-align: center;
 }
 button {
-    border: none;
+    border: 2px;
     cursor: pointer;
     appearance: none;
     background-color: inherit;
     transition: transform .7s ease-in-out;
-    justify-content: center;
-    align-items: center;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.buyClicks:active {
+    transform: scale(80%);
 }
