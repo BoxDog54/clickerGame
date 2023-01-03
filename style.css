@@ -7,3 +7,12 @@ body {
     display: block;
     text-align: center;
 }
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    transition: transform .7s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
