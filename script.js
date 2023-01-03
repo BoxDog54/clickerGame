@@ -87,7 +87,7 @@
  async function manualPoor() {
      document.getElementById("buyButton1").innerText = "Not Enough Clicks!"
      const result = await resolveAfter2Seconds();
-     document.getElementById("buyButton1").innerText = "Buy More Clicks! (" + price2 +" Clicks)", 3500
+     document.getElementById("buyButton1").innerText = "Buy More Clicks! (" + price2 +" Clicks)"
 
  }
 
